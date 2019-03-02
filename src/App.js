@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Event from './Event.jsx';
 import GameOfThrones from './GameOfThrones.jsx';
+import MoodTracker from './MoodTracker.jsx';
 import './App.css';
 
 class App extends Component {
@@ -12,6 +13,7 @@ class App extends Component {
         <div>
         <Event title = "This is the Title Prop" />
         <GameOfThrones />
+        <MoodTracker />
         </div>
       </div>
     );
