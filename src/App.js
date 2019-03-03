@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 import Event from './Event.jsx';
 import GameOfThrones from './GameOfThrones.jsx';
 import MoodTracker from './MoodTracker.jsx';
-import Asynchronous from './Asynchronous.jsx'
+import Asynchronous from './Asynchronous.jsx';
+import Clock from './Clock.jsx';
 import './App.css';
 
 class App extends Component {
@@ -16,6 +17,7 @@ class App extends Component {
         <GameOfThrones />
         <MoodTracker />
         <Asynchronous />
+        <Clock />
         </div>
       </div>
     );
